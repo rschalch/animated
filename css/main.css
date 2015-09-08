@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "thin pixel 7";
+    src: url("../fonts/ThinPixel-7.eot"), url("../fonts/ThinPixel-7.eot?#iefix") format("embedded-opentype"), url("../fonts/ThinPixel-7.woff") format("woff"), url("../fonts/ThinPixel-7.ttf") format("truetype"), url("../fonts/ThinPixel-7.svg#TrajanPro-Bold") format("svg");
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+
+}
+
+body{
+    background: #000000 url("../img/bg.jpg") repeat-x;
+}
+
+.container {
+    visibility: hidden;
+}
+
+#btn_start {
+    /*width: 330px;*/
+    color: #ffffff;
+    font-family: "thin pixel 7";
+    font-size: 96px;
+    /*font-size: 6.4vw;*/
+    margin: 20px auto 0 auto;
+    cursor: pointer;
+    text-align: center;
+    visibility: hidden;
+}
+
+#btn_menu {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    display: none;
+    visibility: hidden;
+}
+
+#btn_sound {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    display: none;
+    visibility: hidden;
+}
+
+#casal-intro {
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+#casal-menu {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#logo {
+    margin: 70px auto 0 auto;
+    visibility: hidden;
+}
+
+#menu {
+    display: none;
+    color: #ffffff;
+    font-family: "thin pixel 7";
+    font-size: 36px;
+    margin: 0 auto;
+    /*width: 900px*/
+}
+
+#menu ul .row {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#menumobile {
+    margin-top: 20px;
+    display: none;
+}
+
+#anim_hist {
+    display: none;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.menu_item{
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    cursor: pointer;
+    margin: 20px 8px;
+}
+
+.menu_item img {
+    max-width: 60px;
+    display: block;
+    margin: -10px auto;
+}
+
+.mobile_menu_item{
+    background-color: rgba(138,43,226,0.75);
+    border-bottom: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.mobile_menu_item:nth-child(1) {
+    border-top: 1px solid #ffffff;
+}
+
+.mobile_menu_item .col-xs-2 {
+    background-color: darkviolet;
+    text-align: center;
+}
+
+.mobile_menu_item img {
+    /*max-width: 50px;*/
+    max-height: 40px;
+    /*margin: 0 auto;*/
+}
+
+@media all and (max-width: 960px){
+    #casal-intro {
+        width: 260px;
+    }
+
+    #btn_start {
+        font-size: 96px;
+    }
+}
+
+@media all and (max-width: 640px){
+    body{
+        background: #000000 url("../img/bg-s.jpg") repeat-x;
+    }
+
+    #casal-intro {
+        width: 220px;
+    }
+
+    #btn_start {
+        font-size: 63px;
+    }
+}
+
+@media all and (max-width: 320px){
+    #casal-intro {
+        width: 160px;
+    }
+
+    #btn_start {
+        font-size: 30px;
+    }
+}
+
+.star {
+    width: 25px;
+    margin-top: 25px;
+}
+
+#days {
+    color: #ffffff;
+    font-family: "thin pixel 7";
+    font-size: 80px;
+    margin: -25px 15px 0 15px;
+}
+
+.countdays {
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+

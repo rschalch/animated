@@ -1,0 +1,70 @@
+#title{
+    font-family: "thin pixel 7";
+    font-size: 64px;
+    color: #d58512;
+    text-align: center;
+}
+
+#contents {
+    font-family: "thin pixel 7";
+    color: blueviolet;
+    font-size: 44px;
+}
+
+input[type="text"] {
+    color: blueviolet;
+    font-size: 44px;
+    height: 42px;
+    padding: 0 5px 3px 5px;
+    line-height: 0.7;
+    border-radius: 3px;
+    margin-top: -14px;
+}
+
+#sendbtn {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 135px;
+    cursor: pointer;
+}
+
+#textarea {
+    height: 130px;
+    color: blueviolet;
+    font-size: 44px;
+    line-height: 0.7;
+    margin-top: -14px;
+}
+
+.control-label {
+    font-weight: normal;
+}
+
+#mensagem {
+    padding-left: 40px;
+}
+
+.msgstitle {
+    font-size: 58px;
+}
+
+.unit {
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.title {
+    color: chartreuse;
+    font-size: 50px;
+}
+
+.data {
+    color: #31b0d5;
+    font-size: 30px;
+}
+
+.msg {
+    color: #ffffff;
+    font-size: 30px;
+}
